@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/changegroup.css">
+    <link rel="shortcut icon" href="images/changegroup.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Paytone+One|Prompt|Vidaloka" rel="stylesheet">
+    <title>ChangeGroup</title>
+  </head>
+  <body>
+    <header>
+      <div class="headerlogo">
+        <img src="images/logo2.png" alt="logo">
+      </div>
+      <div class="headericonos">
+        <ul>
+          <li><a href="#"><i class="fa fa-phone"></i>555-5555555</a></li>
+          <li><a href="#"><i class="fa fa-envelope"></i>contacto@cgroup.com</a></li>
+        </ul>
+      </div>
+    </header>
+    <section class="container">
+      <section class="navegador">
+        <nav>
+          <ul>
+            <li><a href="#">OPCIÓN</a></li>
+            <li class="menu2"><a href="#">OPCIÓN<i class="fa fa-caret-down"></i></a>
+              <ul id="submenu2" class="submenu2">
+                <li><a href="#">OPCIÓN</a></li>
+                <li><a href="#">OPCIÓN</a></li>
+                <li><a href="#">OPCIÓN</a></li>
+              </ul>
+            </li>
+            <li><a href="#">OPCIÓN</a></li>
+            <li><a href="#">OPCIÓN</a></li>
+            <li><a href="#">OPCIÓN</a></li>
+            <li><a href="#">OPCIÓN</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="slider">
+        <div class="slide1"></div>
+        <div class="slide2"></div>
+        <div class="slide3"></div>
+        <section class="currency">
+          <form class="formulario" action="index.html" method="post">
+            <div class="reserva">
+              <div class="moneda">
+                <p>¿Qué moneda deseas?</p>
+                <select id="divisa" class="reserva1-1-2-1" name="" onchange="cuantoEs()">
+                  <option value="USD" selected>Dólar USA</option>
+                  <option value="CHF">Franco Suizo</option>
+                  <option value="GBP">Libra Esterlina</option>
+                </select>
+              </div>
+              <div class="cantidad">
+                <p>Cantidad</p>
+                <input id="from" type="number" name="" value="1" placeholder="" onchange="cuantoEs()">
+              </div>
+              <div class="importe">
+                <p>Importe</p>
+                <input id="to" type="number" class="importe1" placeholder="" readonly>
+              </div>
+              <div class="tasa">
+                <p>1 EUR = </p>
+                <input id="tasa" type="" name="" placeholder="" readonly>
+              </div>
+              <div class="office">
+                <p>Oficina</p>
+                <select class="" name="">
+                  <option value="Oficina 1">Oficina 1</option>
+                  <option value="Oficina 2">Oficina 2</option>
+                </select>
+              </div>
+              <div class="boton">
+                <button class="" type="button" name="button">Comprar</button>
+                <button class="" type="button" name="button">Reservar</button>
+              </div>
+            </div>
+          </form>
+        </section>
+      </section>
+      <!-- <section class="presentacion">
+        <h2>Change Group</h2>
+        <a href="#">Presióname</a>
+      </section> -->
+      <section class="contenedor">
+        <section class="value">
+          <div class="value1">
+            <div class="value1-img">
+              <i class="fa fa-money" aria-hidden="true"></i>
+            </div>
+            <div class="value1-title">
+              <h3>Title</h3>
+            </div>
+            <div class="value1-text">
+              <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
+            </div>
+          </div>
+
+          <div class="value2">
+            <div class="value2-img">
+              <i class="fa fa-globe" aria-hidden="true"></i>
+            </div>
+            <div class="value2-title">
+              <h3>Title</h3>
+            </div>
+            <div class="value2-text">
+              <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
+            </div>
+          </div>
+
+          <div class="value3">
+            <div class="value3-img">
+              <i class="fa fa-users" aria-hidden="true"></i>
+            </div>
+            <div class="value3-title">
+              <h3>Title</h3>
+            </div>
+            <div class="value3-text">
+              <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
+            </div>
+          </div>
+        </section>
+        <section class="oficinas">
+
+          <div class="titulo">
+            <h2>Oficinas en España</h2>
+          </div>
+          <div class="oficina">
+            <div class="oficina1">
+              <a href="#">
+                <div class="oficina1-1contenedor">
+                  <div class="icon1">
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                  </div>
+                  <div class="oficina1-1">
+                  </div>
+                </div>
+              </a>
+              <div class="oficina1-2">
+                <div class="oficina1-2-1">
+                  <h3>Title</h3>
+                </div>
+                <div class="oficina1-2-2">
+                  <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
+                </div>
+              </div>
+            </div>
+            <div class="oficina2">
+              <a href="#">
+                <div class="oficina1-1contenedor">
+                  <div class="icon2">
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                  </div>
+                  <div class="oficina2-1"></div>
+                </div>
+              </a>
+              <div class="oficina2-2">
+                <div class="oficina2-2-1">
+                  <h3>Title</h3>
+                </div>
+                <div class="oficina2-2-2">
+                  <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contacto">
+          <div class="titulo">
+            <h2>Contacto</h2>
+          </div>
+          <div class="contactos">
+            <div class="contacto1">
+              <h3>Queremos comunicarnos contigo</h3>
+              <div class="contactofoto"></div>
+              <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
+            </div>
+            <div class="contacto2">
+              <form class="contacto2-1" action="index.html" method="post">
+                <div class="contacto2-1-1">
+                  <input type="text" name="nombre" placeholder="Nombre" required class="contact">
+                  <input type="email" name="email" placeholder="Email" required class="contact">
+                  <input type="number" name="telefono" placeholder="Teléfono" required class="contact">
+                  <input type="text" name="asunto" placeholder="Asunto" required class="contact">
+                </div>
+                <div class="contacto2-1-2">
+                  <textarea name="mensaje" rows="10" column="25" placeholder="Mensaje" class="contact"></textarea>
+                </div>
+                <div class="contacto2-1-3">
+                  <div class="contacto2-1-3-1">
+                    <a href="#"><button class="botoncon" type="button" name="button">Enviar</button></a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </section>
+      <footer>
+        <div class="footer1">
+          <div class="columna1">
+            <h3>Cambio de Monedas</h3>
+            <ul>
+              <li><a href="#">Cambio Euro - Dólar Americano</a></li>
+              <li><a href="#">Cambio Euro - Libra Esterlina</a></li>
+              <li><a href="#">Cambio Euro - Franco Suizo</a></li>
+              <li><a href="#">Cambio Euro - Dólar de Hong Kong</a></li>
+            </ul>
+          </div>
+          <div class="columna2">
+            <h3>Servicios</h3>
+            <ul>
+              <li><a href="#">Cambio de Divisas</a></li>
+              <li><a href="#">Reservas en linea</a></li>
+              <li><a href="#">Compras en linea</a></li>
+              <li><a href="#">Pagos Internacionales</a></li>
+            </ul>
+          </div>
+          <div class="columna3">
+            <h3>Descubre Más</h3>
+            <ul>
+              <li><a href="#">Sobre nosotros</a></li>
+              <li><a href="#">Trabaja con nosotros</a></li>
+              <li><a href="#">Preguntas frecuentes</a></li>
+              <li><a href="#">Novedades</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="iconos">
+          <i class="fa fa-credit-card-alt"></i>
+          <h3>Compras 100% seguras</h3>
+        </div>
+        <div class="iconos2">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+      </footer>
+    </section>
+    <script type="text/javascript" src="jscript/currencyconverter.js"></script>
+  </body>
+</html>
